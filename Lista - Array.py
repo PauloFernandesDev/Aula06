@@ -23,4 +23,6 @@ alunos  = [""]*5
 for x in range(0,len(alunos)):
     alunos[x] = input(f"Digite o nome do {x +1}° Aluno: ")
 
-print(f"Alunos : {alunos}", end=" ")
+
+for y in range(len(alunos)):
+    print(f"Aluno: {alunos[y]}, Posição do array: {y}")
